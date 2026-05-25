@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* EDIT: content width */
+main {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 2rem;
+}
+
+.ascii-art {
+  display: inline-block;
+  margin: 0 auto 2rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4px;
+  line-height: 1;
+  overflow-x: auto;
+  white-space: pre;
+  text-align: left;
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 3rem;
+  border: 0;
+}
+
+.tickets {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.tickets iframe {
+  max-width: 100%;
+  border: 0;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 14px;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 1.5rem 1rem;
+  }
+}
