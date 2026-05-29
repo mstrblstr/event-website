@@ -48,19 +48,16 @@ p {
   margin: 0 0 2rem;
 }
 
-.ascii-art {
-  display: inline-block;
-  margin: 0 auto 2rem;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 4px;
-  line-height: 1;
-  overflow-x: auto;
-  white-space: pre;
-  text-align: left;
+.header-logo {
+  display: block;
+  width: 100%;
   max-width: 100%;
+  height: auto;
+  margin: 0 auto 2rem;
+  border: 0;
 }
 
-img {
+.flyer {
   display: block;
   max-width: 100%;
   height: auto;
